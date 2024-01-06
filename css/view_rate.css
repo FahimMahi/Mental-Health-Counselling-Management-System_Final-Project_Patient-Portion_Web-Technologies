@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+    color: #000; /* Set font color to black */
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+form {
+    margin: 20px auto; /* Center the form horizontally */
+    text-align: center; /* Center-align the form contents */
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+label {
+    display: block; /* Ensure labels are on a new line */
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #4285f4;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
